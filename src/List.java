@@ -1,8 +1,8 @@
 public class List {
     private Node head;
 
-    public static List insert(List list, int data) {
-        Node newNode = new Node(data, null);
+    public static List insert(List list, Program.Person data) {
+        Node newNode = new Node("ne znam", null);
 
         if (list.head == null) {
             list.head = newNode;

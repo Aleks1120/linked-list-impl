@@ -1,17 +1,17 @@
 public class Node {
-    private int data;
+    private String data;
     private Node next;
 
-    public Node (int data, Node next){
+    public Node (String data, Node next){
         this.data = data;
         this.next = next;
     }
 
-    public int getData() {
+    public String getData() {
         return data;
     }
 
-    public void setData(int data) {
+    public void setData(String data) {
         this.data = data;
     }
 
